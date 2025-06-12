@@ -1,8 +1,6 @@
 from supabase import create_client, Client
 from datetime import datetime
 
-# Supabase Configuration
-# Replace with your Supabase URL and Anon Key
 SUPABASE_URL = "https://utuwostgbayulslrgorj.supabase.co"
 SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InV0dXdvc3RnYmF5dWxzbHJnb3JqIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDc0NjY2ODksImV4cCI6MjA2MzA0MjY4OX0.CXWXfed1QO7sSwaciQwBUb1CB8ajgF0X6QAVfnMWX_c"
 supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
