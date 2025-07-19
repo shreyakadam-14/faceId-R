@@ -73,7 +73,7 @@ CREATE TABLE students (
 ```bash
 python main.py
 ```
-![UI Demo](demo-screenshot.png) *(Add actual screenshot later)*  
+![UI Demo](demo.png)
 ▶️ Press `Q` to quit
 
 ## **🛠️ Customization**
