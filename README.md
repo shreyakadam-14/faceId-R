@@ -3,15 +3,15 @@
 
 A real-time facial recognition attendance system that automates student check-ins using AI.
 
-## **✨ Features**
-- 📸 **Real-time face detection** with webcam integration  
-- 🎯 **Accurate recognition** using `face_recognition` library  
-- ☁️ **Cloud-synced data** via Supabase (PostgreSQL + Storage)  
-- ⏱️ **Anti-spoofing** with 30-second attendance cooldown  
-- 📊 **Student dashboard** displaying profile + attendance stats  
-- 🚀 **Easy setup** with Python and pre-trained models  
+## **Features**
+- **Real-time face detection** with webcam integration  
+- **Accurate recognition** using `face_recognition` library  
+- **Cloud-synced data** via Supabase (PostgreSQL + Storage)  
+- **Anti-spoofing** with 30-second attendance cooldown  
+- **Student dashboard** displaying profile + attendance stats  
+- **Easy setup** with Python and pre-trained models  
 
-## **🚀 Quick Start**
+## **Quick Start**
 ### Prerequisites
 - WebCam
 - Python 3.8+
@@ -40,7 +40,7 @@ python encodeGenerator.py
 python main.py
 ```
 
-## **🔧 Database Setup**
+## **Database Setup**
 ```sql
 CREATE TABLE students (
   id TEXT PRIMARY KEY,
@@ -54,7 +54,7 @@ CREATE TABLE students (
 );
 ```
 
-## **📂 Project Structure
+## **Project Structure
 ```
 /faceId-R
 │
@@ -69,31 +69,31 @@ CREATE TABLE students (
 └── EncodeFile.p           # Auto-generated face data
 ```
 
-## **🖥️ Demo**
+## **Demo**
 ```bash
 python main.py
 ```
 ![UI Demo](demo.png)
-▶️ Press `Q` to quit
+▶️ Press `Q` or 'ctrl+C' to quit
 
-## **🛠️ Customization**
+## **Customization**
 - **Change cooldown**: Modify `30` in `main.py` (seconds)
 - **Add new students**: 
   1. Add photo to `/images` (format: ID.jpg)
   2. Run `encodeGenerator.py`
   3. Add record via `AddDatatoDatabase.py`
 
-## **📜 License**
+## **License**
 MIT © [Shreya Kadam](https://github.com/shreyakadam-14)
 
 ---
 
-**💡 Pro Tip**: For better accuracy, ensure:
+**For better accuracy, ensure:**
 - Well-lit environments  
 - Front-facing student photos  
 - High-resolution images (min. 300x300px)  
 
-**🐛 Found an issue?** Open a ticket or PR!  
+**Found an issue?** Open a ticket or PR!  
 
 [![GitHub Stars](https://img.shields.io/github/stars/shreyakadam-14/faceId-R?style=social)](https://github.com/shreyakadam-14/faceId-R/stargazers)  
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT) 
