@@ -54,7 +54,7 @@ CREATE TABLE students (
 );
 ```
 
-## **Project Structure
+## **Project Structure**
 ```
 /faceId-R
 │
@@ -74,7 +74,7 @@ CREATE TABLE students (
 python main.py
 ```
 ![UI Demo](demo.png)
-▶️ Press `Q` or 'ctrl+C' to quit
+Press `Q` or 'Ctrl+C' to quit
 
 ## **Customization**
 - **Change cooldown**: Modify `30` in `main.py` (seconds)
